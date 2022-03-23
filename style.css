@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  margin-left: 72px;
+  font-family: "Ubuntu Mono";
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+}
+
+.bootstrap p {
+  text-decoration: underline overline;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.container {
+  border: 2px solid grey;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+  margin-left: 8px;
+}
+
+.cool-blue {
+  background-color: #22658F;
+  color: aliceblue;
+}
+
+.pink {
+  background-color: #DB4242;
+  color: aliceblue;
+}
+
+.mint-green {
+  background-color: rgb(112, 235, 112);
+  color: aliceblue;
+}
+
+.purple {
+  background-color: purple;
+  color: antiquewhite;
+}
+
+.gold {
+  background-color: rgb(216, 158, 10);
+}
+
+.black {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.font-panel {
+  display: inline-block;
+  width: 45%;
+  margin-left: 48px;
+}
+
+.font-label {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", monospace;
+}
+
+.source-serif-pro {
+  font-family: "Source Serif Pro", monospace;
+}
+
+.monospace {
+  font-family: monospace, serif;
+}
+
+.ubuntu-mono {
+  font-family: "Ubuntu Mono", Serif;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-panel h1 {
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: "Ubuntu Mono";
+  font-size: 34px;
+}
+
+.text-panel h2 {
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.text-panel p {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+}
+
+.buttons-container {
+  display: inline-block;
+  margin-left: 189px;
+  margin-top: 31px;
+  margin-bottom: 59px;
+}
